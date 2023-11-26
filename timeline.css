@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/564x/bf/49/78/bf4978ff49dabcde6e26db2996bcb0bf.jpg");
+}
+
+body {
+  color: #66524E;
+}
+
+/* redirects */
+.links {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+text-align: center;
+z-index: 999;
+position: relative;
+width: 100%;
+background-color: #968380;
+border-radius: 10px;
+}
+
+li {
+float: left;
+margin: 0;
+  
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+background-color: white;
+}
+
+/* title of page */
+.title {
+  text-align: center;
+  z-index: 999;
+  position: relative;
+  width: 20%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+/* each box with event */
+.event-box {
+  position: relative;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+/* alternate between left and right */
+.event-box:nth-child(odd) {
+  float: left;
+}
+
+.event-box:nth-child(even) {
+  float: right;
+}
+
+/* making the images all the same size */
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  border: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* adding a vertical line to the timeline */
+.vertical-line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  background-color: #000; 
+  z-index: 0; 
+}
