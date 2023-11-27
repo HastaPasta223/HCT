@@ -1,35 +1,86 @@
-body{
-    background-color:#1e1e1e;
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/564x/bf/49/78/bf4978ff49dabcde6e26db2996bcb0bf.jpg");
 }
 
-h1{
-    color: white;
+body {
+  color: #66524E;
 }
 
-.buttons_for_other_pages{
-  background-color: #04AA6D; /* Green */
-  border: #0000;
-  color: white;
-  padding: 15px 32px;
+/* redirects */
+.links {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+text-align: center;
+z-index: 999;
+position: relative;
+width: 100%;
+background-color: #968380;
+border-radius: 10px;
+}
+
+li {
+float: left;
+margin: 0;
+  
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+background-color: white;
+}
+
+/* title of page */
+.title {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  z-index: 999;
+  position: relative;
+  width: 20%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
 }
 
-p{
-    word-spacing: 1px;
+
+/* making the images all the same size */
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  border: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* makes changes to how summary is presented */
 .summary{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    color: white;
+    color: #66524E;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
 }
 
+/* creates spaces in between the words in summary */
+p{
+    word-spacing: 1px;
+}
+
+/* makes sure that webpage will properly adapt to various screend difference such as on a tablet or smartphone */
 @media only screen and (max-width: 414px ){
     .summary{
         visibility: visible;
