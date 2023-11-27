@@ -7,3 +7,35 @@ html {
 body {
   color: #66524E;
 }
+
+.links {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+text-align: center;
+z-index: 999;
+position: relative;
+width: 100%;
+background-color: #968380;
+border-radius: 10px;
+}
+
+li {
+float: left;
+margin: 0;
+  
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+background-color: white;
+}
