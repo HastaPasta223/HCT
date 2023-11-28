@@ -66,14 +66,17 @@ img {
 }
 
 /* makes changes to how summary is presented */
-.summary{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    color: #66524E;
-    font-size: 20px;
-    line-height: 2;
+.event-box{
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+  line-height: 2;   
 }
+
+
 
 /* creates spaces in between the words in summary */
 p{
