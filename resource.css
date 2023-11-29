@@ -21,8 +21,11 @@ background-color: #968380;
 border-radius: 10px;
 }
 
-li {
+.redirect{
 float: left;
+}
+
+li {
 margin: 0;
   
 }
