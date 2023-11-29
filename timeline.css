@@ -94,3 +94,11 @@ img {
   background-color: #000; 
   z-index: 0; 
 }
+
+/* makes sure that webpage will properly adapt to various screend difference such as on a tablet or smartphone */
+@media only screen and (max-width: 414px ){
+    .summary{
+        visibility: visible;
+    }
+
+}
