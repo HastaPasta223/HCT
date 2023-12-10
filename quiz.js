@@ -90,38 +90,22 @@ const quizData = [
     }
   }
   
-  function displayResult() {
-    /*
-    quizContainer.style.display = 'none';
-    submitButton.style.display = 'none';
-    retryButton.style.display = 'inline-block';
-    showAnswerButton.style.display = 'inline-block';
-    */
+  function displayResult() \
+  {
     resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
   }
   
-  function retryQuiz() {
+  function retryQuiz()
+    {
     currentQuestion = 0;
     score = 0;
     incorrectAnswers = [];
-    /*
-    quizContainer.style.display = 'block';
-    submitButton.style.display = 'inline-block';
-    retryButton.style.display = 'none';
-    showAnswerButton.style.display = 'none';
-    */
     resultContainer.innerHTML = '';
     displayQuestion();
   }
   
-  function showAnswer() {
-    /*
-    quizContainer.style.display = 'none';
-    submitButton.style.display = 'none';
-    retryButton.style.display = 'inline-block';
-    showAnswerButton.style.display = 'none';
-    */
-  
+  function showAnswer() 
+  {
     let incorrectAnswersHtml = '';
     for (let i = 0; i < incorrectAnswers.length; i++) 
     {
