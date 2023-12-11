@@ -129,7 +129,11 @@ function checkAnswer() {
 
 function displayResult()
 {
+  quizContainer.innerHTML = '';
   resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
+  submitButton.className = "button hide";
+  retryButton.className = "button";
+  showAnswerButton.className = "button";
 }
 
 function retryQuiz()
@@ -138,6 +142,9 @@ function retryQuiz()
   score = 0;
   incorrectAnswers = [];
   resultContainer.innerHTML = '';
+  retryButton.className = "button hide";
+  showAnswerButton.className = "button hide";
+  submitButton.className = "button";
   displayQuestion();
 }
 
@@ -165,5 +172,4 @@ function showAnswer()
 submitButton.addEventListener('click', checkAnswer);
 retryButton.addEventListener('click', retryQuiz);
 showAnswerButton.addEventListener('click', showAnswer);
-
 displayQuestion();
