@@ -74,3 +74,18 @@ html {
     transition: background-color 0.3s;
     margin-right: 10px;
   }
+
+  .question
+  {
+    text-align: center;
+    display: flex;
+  }
+  .options
+  {
+    text-align: center;
+    
+  }
+  #subtext
+  {
+    font-size: 50px;
+  }
