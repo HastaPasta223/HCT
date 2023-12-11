@@ -56,8 +56,8 @@ background-color: white;
 
 /* making the images all the same size */
 img {
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 425px;
   border-radius: 25px;
   border: 2px solid black;
   display: block;
