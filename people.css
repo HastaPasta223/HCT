@@ -38,10 +38,28 @@ text-decoration: none;
 
 .text{
   position: relative;
-  width: 100%;
+  width: 95%;
   margin: 20px auto;
   padding: 20px;
   background-color: lightgray;
   border-radius: 25px;
   line-height: 2;   
+}
+img
+{
+  position: relative;
+  width: 25%;
+}
+.quiz_link
+{
+  float: right;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  z-index: 999;
+  position: relative;
+  width: 100%;
+  background-color: #968380;
+  border-radius: 10px;
 }
