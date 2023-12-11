@@ -63,3 +63,13 @@ img
   background-color: #968380;
   border-radius: 10px;
 }
+#message
+{ 
+  position: relative;
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+  line-height: 2;
+}
