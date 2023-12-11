@@ -3,10 +3,7 @@ html {
     width: 100%;
     background-image: url("https://i.pinimg.com/564x/bf/49/78/bf4978ff49dabcde6e26db2996bcb0bf.jpg");
   }
-  
-  body {
-    color: #66524E;
-  }
+
   
   /* redirects */
   .links {
@@ -55,37 +52,64 @@ html {
 
   .container
   {
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
+    width: auto;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 20px;
   }
   
-  .button {
+  .button 
+  { 
     display: inline-block;
     padding: 10px 20px;
-    background-color: #66524E;
+    background-color: #968380;
     color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: larger;
     border-radius: 4px;
     transition: background-color 0.3s;
-    margin-right: 10px;
   }
 
+  .button:hover
+  {
+    background-color: #857471;
+  }
+  
   .question
   {
-    text-align: center;
-    display: flex;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 10px;
   }
   .options
   {
-    text-align: center;
-    
+    margin-bottom: 20px;
+    font-size: xx-large;
   }
+
+  .option 
+  {
+    display: block;
+    margin-bottom: 10px;
+  }
+
   #subtext
   {
-    font-size: 50px;
+    font-size: 20px;
   }
+
+  #result
+  {
+    font-size: xx-large;
+
+  }
+  .result {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .hide{
+    display: none;
+  }
+  
